@@ -2,6 +2,13 @@ body{
     margin: 0;
     padding: 0;
   }
+
+  .work{
+    height: 70vh;
+    overflow: hidden;
+  }
+
+  
   
   .header {
     display: inline;
@@ -20,7 +27,7 @@ body{
     align-items: center;
     display: inline;
     position: relative;
-    
+
     bottom: 1em;
   }
 
@@ -39,25 +46,30 @@ body{
     margin: 0px;
     padding: 0px;
     position: relative;
+    list-style-type: none;
+    left: 75em;
+  }
+
+  #login{
+    position: relative;
+    bottom: 1.8em;
   }
   
   #register {
-    padding-bottom: 2px;
-  }
-  
-  .register {
-    padding: 2px 15px;
     background-color: white;
     color: black;
     border: 2px solid #555555;
     border-radius: 3px;
+    width: 6%;
+    position: relative;
+    left: 4em;
+    bottom: 2.8em;
   }
   
 .content{
     display: inline-block;
     margin: 80px;
     padding: 80px;
-    height: 500px;
     align-items: center;
     position: absolute;
 }
@@ -68,22 +80,39 @@ body{
     padding: 0;
 }
 
-.item{
+.paragraph{
+    width: 45%;
+    
+}
+.paragraph p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.info{
+    
+}
+.pic{
+    
+}
+.partners{
+    
+}
+
+button{
     padding-left: 15px;
     padding: 2px 15px;
     background-color: black;
     color: white;
     border-radius: 3px;
+    margin: 1.2em 0;
 }
 
-img{
-    display: inline;
-    margin-left: 0;
-    padding-left: 100px;
-    padding-right: 100px;
-    height: 500px;
-    float: right;
+.pic img{
     position: relative;
+    left: 50em;
+    height: 70vh;
+    width: 28vh;
+    bottom: 25em;
     
 }
   
